@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://fengxiansen.github.io/2019/10/23/React-%E7%9A%84%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E4%B9%8B%E5%BD%93-PureComponent-%E9%81%87%E4%B8%8A-ImmutableJS/</loc>
+    
+    <lastmod>2019-12-21T08:17:06.293Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://fengxiansen.github.io/about/index.html</loc>
     
     <lastmod>2019-10-28T12:35:32.398Z</lastmod>

@@ -306,6 +306,156 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://fengxiansen.github.io/2019/10/23/React-的性能优化之当-PureComponent-遇上-ImmutableJS/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="馮先森">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CodeSky's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/10/23/React-的性能优化之当-PureComponent-遇上-ImmutableJS/" itemprop="url">React 的性能优化之当 PureComponent 遇上 ImmutableJS</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-10-23T19:18:27+08:00">
+                2019-10-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/React/" itemprop="url" rel="index">
+                    <span itemprop="name">React</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="React-的性能优化之当-PureComponent-遇上-ImmutableJS"><a href="#React-的性能优化之当-PureComponent-遇上-ImmutableJS" class="headerlink" title="React 的性能优化之当 PureComponent 遇上 ImmutableJS"></a>React 的性能优化之当 PureComponent 遇上 ImmutableJS</h2><h4 id="一、痛点"><a href="#一、痛点" class="headerlink" title="一、痛点"></a>一、痛点</h4><p>在我们的印象中，React好像就意味着组件化、高性能，我们永远只需要关心数据整体，两次数据之间的 UI 如何变化，则完全交给 React Virtual Dom 的 Diff 算法 去做。以至于我们很随意的去操纵数据，基本优化shouldComponentUpdate 也懒得去写，毕竟不写也能正确渲染。但随着应用体积越来越大，会发现页面好像有点变慢了，特别是组件嵌套比较多，数据结构比较复杂的情况下，随便改变一个表单项，或者对列表做一个筛选都要耗时 100ms 以上，这个时候我们就需要优化了！当然如果没有遇到性能瓶颈，完全不用担心，过早优化是邪恶的。这里我们总结一个很简单的方案来让 React 应用性能发挥到极致。在下面一部分，我们先回顾一下一些背景知识，包括：JavaScript 变量类型和 React 渲染机制，如果你是老鸟可以直接跳过。</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/10/23/React-的性能优化之当-PureComponent-遇上-ImmutableJS/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://fengxiansen.github.io/2019/04/11/手撕常用代码/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1657,156 +1807,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fengxiansen.github.io/2018/07/07/Android-Studio-gradle插件由2-2-3升级到3-1-0/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="馮先森">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="CodeSky's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/07/07/Android-Studio-gradle插件由2-2-3升级到3-1-0/" itemprop="url">Android Studio gradle插件由2.2.3升级到3.1.0</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-07-07T19:14:01+08:00">
-                2018-07-07
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/React-Native/" itemprop="url" rel="index">
-                    <span itemprop="name">React Native</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="Android-Studio-gradle插件由2-2-3升级到3-1-0"><a href="#Android-Studio-gradle插件由2-2-3升级到3-1-0" class="headerlink" title="Android Studio gradle插件由2.2.3升级到3.1.0"></a>Android Studio gradle插件由2.2.3升级到3.1.0</h2><p>升级gradle插件的原因是因为项目里集成第三方依赖都已经需要gradle3.x的版本去编译，所以我也需要将项目的gradle插件进行升级；插件升级的过程中也遇到了一些乱七八糟编译失败的报错，网上搜了一大堆解决办法，结果没有一个方案让升级过程变得畅通无阻，没办法只好网上找了gradle3.x版本的Demo进行比对尝试，后来结果还算令人欣喜；现在开始奉上我升级gradle插件的方案，希望可以帮助有需要的人少走点弯路。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/07/07/Android-Studio-gradle插件由2-2-3升级到3-1-0/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1861,7 +1861,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">27</span>
+                  <span class="site-state-item-count">28</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
